@@ -1615,6 +1615,14 @@ video.responsive-video {
         display: block;
         margin-bottom: 10px;
     }
+    .slider label img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider {
+        padding-top: 0;
+    }
 }
 
 /***** Wide Mobile Layout *****/

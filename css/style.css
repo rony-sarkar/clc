@@ -1607,6 +1607,14 @@ video.responsive-video {
     .product-details-area {
         padding: 0;
     }
+    .slider .large {
+        display: none;
+    }
+
+    .slider label {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
 
 /***** Wide Mobile Layout *****/

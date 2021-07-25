@@ -25,18 +25,20 @@
 }
 
 .slider label {
-    margin: 0 0 0 6px;
-    display: inline-block;
-    cursor: pointer;
-    transition: all 0.5s;
-    opacity: 0.6;
-    position: relative;
+	margin: 0 0 0 6px;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.6;
+	position: relative;
+	width: 60px;
+	height: 60px;
+    border: 1px solid #e8e8e8;
 }
 
 .slider label img {
     display: block;
-    border: 1px solid #e8e8e8;
-    height: 80px;
+    height: auto;
     width: auto;
 }
 

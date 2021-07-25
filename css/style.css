@@ -1607,6 +1607,9 @@ video.responsive-video {
     .product-details-area {
         padding: 0;
     }
+    .slider .large {
+        display: none;
+    }
 
     .slider label {
         margin: 0 0 10px;

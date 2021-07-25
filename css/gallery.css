@@ -25,20 +25,21 @@
 }
 
 .slider label {
-	margin: 0 0 0 6px;
-	display: inline-block;
-	cursor: pointer;
-	transition: all 0.5s;
-	position: relative;
-	width: 60px;
-	height: 60px;
-   	border: 1px solid #e8e8e8;
+    margin: 0 0 0 6px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e8e8e8;
 }
 
 .slider label img {
     display: block;
     height: auto;
     width: auto;
+    padding: 5px;
 }
 
 .slider input[name='slide_switch']:checked + label {
@@ -62,7 +63,10 @@
 
     .slider label {
         margin: 0 0 10px;
+        width: auto;
+        height: auto;
     }
+
     .slider label img {
         width: 100%;
         height: auto;
@@ -71,7 +75,12 @@
     .slider {
         padding-top: 0;
     }
+
     .rt-container {
         width: auto;
+    }
+
+    .slider label {
+        display: block;
     }
 }
